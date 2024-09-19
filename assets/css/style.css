@@ -14,10 +14,73 @@
   --primary-size: 28px;
 }
 
+body {
+  background-color: var(--Dark-Blue);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.container {
+  width: 95%;
+  max-width: 30rem;
+  text-align: center;
+  background-color: var(--Dark-Grayish-Blue);
+  padding: 20px;
+  border-radius: 12px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.container .advice-id {
+  text-transform: uppercase;
+  color: var(--Neon-Green);
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-block: 20px;
+}
+
+.container .advice-title {
+  color: var(--Light-Cyan);
+  font-weight: 800;
+  font-size: var(--primary-size);
+  margin-bottom: 30px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.next {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  bottom: -40px;
+  border-radius: 50%;
+  background-color: var(--Neon-Green);
+  display: grid;
+  place-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.next:hover {
+  box-shadow: 0 0 50px 2px var(--Neon-Green);
+}
+
+.next img {
+  width: 30px;
 }

@@ -38,6 +38,7 @@ body {
   border-radius: 12px;
   padding-bottom: 60px;
   position: relative;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .container .advice-id {
@@ -83,4 +84,8 @@ body {
 
 .next img {
   width: 30px;
+}
+
+.advice-title:before {
+  content: "“";
 }

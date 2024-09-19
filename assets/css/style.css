@@ -89,3 +89,6 @@ body {
 .advice-title:before {
   content: "“";
 }
+.advice-title:after {
+  content: "”";
+}

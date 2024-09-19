@@ -24,9 +24,12 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 30px;
+  color: #fff;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 62%, 77%);
 }
 
 .container {

@@ -1,11 +1,24 @@
-# Frontend Mentor - Advice generator app
+# Mo3bassia - Advice generator app
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-## Challenge Link
+## Overview
 
-- [Challenge prview link](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+### Screenshot
 
-## Live Demo
+![](./design/desktop-preview.jpg)
 
-- [Live Preview Here](https://advice-generator-app-mo3bassias-projects.vercel.app)
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/solutions/advice-generator-app-Qk1kDWnQI6)
+- Live Site URL: [here](https://advice-generator-app-mo3bassias-projects.vercel.app)
+
+### Built with
+
+- HTML5
+- Google Fonts
+- CSS
+- Javascript
+- Fetch API (Json File)
+
+### 🚀🚀🚀
